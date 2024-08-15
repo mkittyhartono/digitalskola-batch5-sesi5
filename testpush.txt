@@ -1,0 +1,28 @@
+function calculator(angka1,angka2,operator){
+	switch(operator){
+	case '+':
+		return angka1+angka2;
+		break;
+	case '-':
+		return angka1-angka2;
+		break;
+	case '*':
+		return angka1*angka2;
+		break;
+	case '/':
+		return angka1/angka2;
+		break;
+	default:
+		return ('enter a valid numbers');
+	}
+}
+
+let penjumlahan = calculator(3,2,'+');
+let pengurangan = calculator(3,2,'-');
+let perkalian = calculator(3,2,'*');
+let pembagian = calculator(3,2,'/');
+
+console.log('hasil penjumlahan: ' +penjumlahan);
+console.log('hasil pengurangan: ' +pengurangan);
+console.log('hasil perkalian:   ' +perkalian);
+console.log('hasil pembagian:   ' +pembagian);
