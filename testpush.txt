@@ -26,6 +26,3 @@ console.log('hasil penjumlahan: ' +penjumlahan);
 console.log('hasil pengurangan: ' +pengurangan);
 console.log('hasil perkalian:   ' +perkalian);
 console.log('hasil pembagian:   ' +pembagian);
-
-
-edittttt
